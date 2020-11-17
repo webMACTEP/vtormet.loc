@@ -206,7 +206,7 @@ body {
 }
 
 .intro {
-  background: url("/img/intro.jpg");
+  background: url("../img/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
