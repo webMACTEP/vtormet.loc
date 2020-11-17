@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;900&display=swap");
 body {
    font-family: "Exo 2", sans-serif;
-   line-height: 1.4;
+   line-height: 1.5;
    background-color: #fff;
    letter-spacing: 0.02em;
 }
@@ -45,6 +45,7 @@ $color2: #f7992b;
    &__social {
       & img {
          margin: 0 0 0 20px;
+         vertical-align: middle;
       }
    }
 
@@ -66,10 +67,12 @@ $color2: #f7992b;
       position: relative;
       padding-left: 36px;
       &.button {
-         padding-left: 70px;
+         padding-left: 72px;
+         padding-top: 4px;
          width: 160px;
+         line-height: 1.2;
          & img {
-            left: 15px;
+            left: 25px;
          }
       }
       &.button::before {
@@ -78,7 +81,7 @@ $color2: #f7992b;
          top: -23px;
          left: 0;
          width: 1px;
-         height: 220%;
+         height: 209%;
          background-color: #dadbdc;
       }
       &.button::after {
@@ -87,7 +90,7 @@ $color2: #f7992b;
          top: -23px;
          right: 0;
          width: 1px;
-         height: 220%;
+         height: 209%;
          background-color: #dadbdc;
       }
 
@@ -118,5 +121,50 @@ $color2: #f7992b;
          @include font(18px, $bold, $white);
          letter-spacing: 0.06em;
       }
+   }
+}
+.intro {
+   background: url("/img/intro.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   padding: 57px 0;
+   text-align: center;
+
+   &__title {
+      @include font(36px, $black, $white);
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 30px;
+      &::after {
+         content: "";
+         position: absolute;
+         top: 65px;
+         left: 50%;
+         text-align: center;
+         width: 200px;
+         margin-left: -100px;
+         height: 2px;
+         background: #f7992b;
+      }
+   }
+
+   &__subtitle {
+      @include font(26px, $bold, $white);
+      & span {
+         color: #f7992b;
+      }
+   }
+
+   &__button {
+      @include font(18px, $black, $white);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: #f7992b;
+      padding: 12px 0;
+      width: 370px;
+      margin: 20px auto 0 auto;
+      border-radius: 5px;
    }
 }
