@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -74,5 +75,129 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
-  background-color: #000;
+  font-family: "Exo 2", sans-serif;
+  line-height: 1.4;
+  background-color: #fff;
+  letter-spacing: 0.02em;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header__row1 {
+  background-color: #294594;
+}
+
+.header__row1 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 0;
+}
+
+.header__title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.header__social img {
+  margin: 0 0 0 20px;
+}
+
+.header__row2 {
+  background-color: #fff;
+}
+
+.header__row2 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 23px 0;
+}
+
+.header__item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #262728;
+  text-align: left;
+  position: relative;
+  padding-left: 36px;
+}
+
+.header__item.button {
+  padding-left: 70px;
+  width: 160px;
+}
+
+.header__item.button img {
+  left: 15px;
+}
+
+.header__item.button::before {
+  content: "";
+  position: absolute;
+  top: -23px;
+  left: 0;
+  width: 1px;
+  height: 220%;
+  background-color: #dadbdc;
+}
+
+.header__item.button::after {
+  content: "";
+  position: absolute;
+  top: -23px;
+  right: 0;
+  width: 1px;
+  height: 220%;
+  background-color: #dadbdc;
+}
+
+.header__item span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #262728;
+}
+
+.header__item img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+.header__nav {
+  background-color: #f7992b;
+}
+
+.header__nav .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 13px 0;
+}
+
+.header__nav li {
+  display: inline-block;
+}
+
+.header__nav a {
+  margin: 0 0 0 63px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.06em;
 }
