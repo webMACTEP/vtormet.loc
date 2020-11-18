@@ -371,6 +371,8 @@ body {
   border-radius: 5px;
   overflow: hidden;
   margin: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .uslugi__item img {
@@ -378,6 +380,11 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.uslugi__item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .uslugi__bg {
