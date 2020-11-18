@@ -3,7 +3,7 @@
 body {
    font-family: "Exo 2", sans-serif;
    line-height: 1.5;
-   background-color: #fff;
+   background-color: #f8f9fa;
    letter-spacing: 0.02em;
 }
 $regular: 400;
@@ -169,11 +169,12 @@ $color2: #f7992b;
    }
 }
 .wappgroup {
+   background-color: #fff;
+   padding: 30px 0px 30px 0px;
    &__blok {
       display: flex;
       align-items: center;
       background: $color1;
-      margin: 30px 0px 30px 0px;
       padding: 40px 80px;
       border: 10px solid #3e579e;
       box-sizing: border-box;

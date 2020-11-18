@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Exo 2", sans-serif;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #f8f9fa;
   letter-spacing: 0.02em;
 }
 
@@ -259,6 +259,11 @@ body {
   border-radius: 5px;
 }
 
+.wappgroup {
+  background-color: #fff;
+  padding: 30px 0px 30px 0px;
+}
+
 .wappgroup__blok {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,7 +272,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #294594;
-  margin: 30px 0px 30px 0px;
   padding: 40px 80px;
   border: 10px solid #3e579e;
   -webkit-box-sizing: border-box;
