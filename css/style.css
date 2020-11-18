@@ -321,3 +321,107 @@ body {
 .wappgroup__button img {
   margin-right: 10px;
 }
+
+.uslugi {
+  padding-bottom: 80px;
+}
+
+.uslugi .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -10px 0px -10px;
+}
+
+.uslugi__title {
+  position: relative;
+  margin: 65px 0px 40px 0px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 140%;
+  /* or 50px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Шрифт 1 */
+  color: #262728;
+}
+
+.uslugi__title::after {
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  text-align: center;
+  width: 200px;
+  margin-left: -100px;
+  height: 2px;
+  background: #f7992b;
+}
+
+.uslugi__item {
+  position: relative;
+  width: 270px;
+  height: 203px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.uslugi__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.uslugi__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.5;
+}
+
+.uslugi__border {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 250px;
+  height: 183px;
+  opacity: 0.3;
+  border: 5px solid #ffffff;
+}
+
+.uslugi__item-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Просто белый */
+  color: #ffffff;
+}
