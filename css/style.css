@@ -175,7 +175,7 @@ body {
   display: block;
   position: absolute;
   left: 0;
-  top: 7px;
+  top: 9px;
 }
 
 .header__nav {
@@ -257,4 +257,63 @@ body {
   width: 370px;
   margin: 20px auto 0 auto;
   border-radius: 5px;
+}
+
+.wappgroup__blok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #294594;
+  margin: 30px 0px 30px 0px;
+  padding: 40px 80px;
+  border: 10px solid #3e579e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.wappgroup__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.wappgroup__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Просто белый */
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  width: 320px;
+  height: 50px;
+}
+
+.wappgroup__button img {
+  margin-right: 10px;
 }

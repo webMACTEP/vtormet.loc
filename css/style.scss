@@ -101,7 +101,7 @@ $color2: #f7992b;
          display: block;
          position: absolute;
          left: 0;
-         top: 7px;
+         top: 9px;
       }
    }
 
@@ -166,5 +166,57 @@ $color2: #f7992b;
       width: 370px;
       margin: 20px auto 0 auto;
       border-radius: 5px;
+   }
+}
+.wappgroup {
+   &__blok {
+      display: flex;
+      align-items: center;
+      background: $color1;
+      margin: 30px 0px 30px 0px;
+      padding: 40px 80px;
+      border: 10px solid #3e579e;
+      box-sizing: border-box;
+      border-radius: 5px;
+   }
+
+   &__title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 38px;
+      text-align: right;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #ffffff;
+   }
+
+   &__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 40px;
+
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+
+      /* Просто белый */
+
+      color: #ffffff;
+
+      border: 2px solid #ffffff;
+      box-sizing: border-box;
+      border-radius: 5px;
+      width: 320px;
+      height: 50px;
+      & img {
+         margin-right: 10px;
+      }
    }
 }
