@@ -86,8 +86,17 @@ table {
   border-collapse: collapse;
 }
 
+table img {
+  width: 70px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin: -20px auto;
+}
+
 table th {
-  padding: 10px 20px 10px 20px;
+  padding: 30px 20px 30px 20px;
   background: #ffffff;
   border: 1px solid #dadbdc;
   font-weight: normal;
@@ -614,15 +623,6 @@ table thead th {
           transform: rotate(180deg);
 }
 
-.price img {
-  width: 70px;
-  height: 60px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  margin: 0 auto;
-}
-
 .price__title {
   position: relative;
   margin: 65px 0px 40px 0px;
@@ -680,4 +680,8 @@ table thead th {
   padding: 14px 0;
   width: 370px;
   margin: 40px auto;
+}
+
+.price-dis {
+  padding: 0px 0px 70px 0px;
 }
