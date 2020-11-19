@@ -685,3 +685,99 @@ table thead th {
 .price-dis {
   padding: 0px 0px 70px 0px;
 }
+
+.how {
+  position: relative;
+  background: #294594;
+  padding: 65px 0px 80px 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* Просто белый */
+  color: #ffffff;
+}
+
+.how__title {
+  position: relative;
+  margin: 0px 0px 40px 0px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 140%;
+  /* or 50px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* Шрифт 1 */
+  color: #fff;
+}
+
+.how__title::after {
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  text-align: center;
+  width: 200px;
+  margin-left: -100px;
+  height: 2px;
+  background: #f7992b;
+}
+
+.how .wrapper {
+  margin: 50px 0px 0px 0px;
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.how__line {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  width: 900px;
+  margin-left: -450px;
+  height: 4px;
+  background: url("../img/punktir.svg");
+  background-repeat: repeat-x;
+}
+
+.how img {
+  margin: 0px 0px 20px 0px;
+}
+
+.how__column {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+.how__button {
+  width: 370px;
+  padding: 15px 0px 15px 0px;
+  margin: 40px auto 0px auto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
