@@ -24,6 +24,35 @@ $white: #fff;
 $color1: #294594;
 $color2: #f7992b;
 
+table {
+   width: 100%;
+   border-collapse: collapse;
+   & th {
+      padding: 10px 20px 10px 20px;
+      background: #ffffff;
+      border: 1px solid #dadbdc;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      letter-spacing: 0.02em;
+      text-align: left;
+   }
+   thead {
+      & th {
+         text-align: center;
+         border: 1px solid #ffffff;
+         padding: 10px 0px 10px 0px;
+         background: #dadbdc;
+         box-sizing: border-box;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 16px;
+         line-height: 140%;
+      }
+   }
+}
 .container {
    max-width: 1170px;
    margin: 0 auto;
@@ -443,5 +472,80 @@ $color2: #f7992b;
             transform: rotate(180deg);
          }
       }
+   }
+}
+.price {
+   & img {
+      width: 70px;
+      height: 60px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+   }
+
+   &__title {
+      position: relative;
+      margin: 65px 0px 40px 0px;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 140%;
+      /* or 50px */
+
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+
+      /* Шрифт 1 */
+
+      color: #262728;
+      &::after {
+         content: "";
+         position: absolute;
+         top: 65px;
+         left: 50%;
+         text-align: center;
+         width: 200px;
+         margin-left: -100px;
+         height: 2px;
+         background: #f7992b;
+      }
+   }
+
+   &__subtitle {
+      margin: 0px 0px 30px 0px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 140%;
+      /* identical to box height, or 31px */
+
+      text-align: center;
+      letter-spacing: 0.02em;
+
+      /* Шрифт 1 */
+
+      color: #262728;
+   }
+
+   &__button {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+
+      /* Шрифт 1 */
+
+      color: #262728;
+      border: 2px solid #a8a9aa;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 14px 0;
+      width: 370px;
+      margin: 40px auto;
    }
 }
