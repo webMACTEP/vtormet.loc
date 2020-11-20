@@ -743,8 +743,8 @@ table thead th {
   position: absolute;
   top: 220px;
   left: 50%;
-  width: 900px;
-  margin-left: -450px;
+  width: 70%;
+  margin-left: -35%;
   height: 4px;
   background: url("../img/punktir.svg");
   background-repeat: repeat-x;
