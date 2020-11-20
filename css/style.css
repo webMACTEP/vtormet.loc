@@ -877,11 +877,9 @@ table thead th {
   font-weight: 900;
   font-size: 36px;
   line-height: 140%;
-  /* or 50px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #262728;
 }
 
@@ -903,9 +901,7 @@ table thead th {
   font-weight: bold;
   font-size: 22px;
   line-height: 140%;
-  /* identical to box height, or 31px */
   letter-spacing: 0.02em;
-  /* 1 */
   color: #294594;
 }
 
@@ -916,9 +912,7 @@ table thead th {
   font-weight: normal;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   letter-spacing: 0.02em;
-  /* Шрифт 1 */
   color: #262728;
   padding: 0px 80px 40px 60px;
 }
@@ -976,11 +970,9 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #262728;
   border: 2px solid #a8a9aa;
   -webkit-box-sizing: border-box;

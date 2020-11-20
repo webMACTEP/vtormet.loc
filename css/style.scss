@@ -725,14 +725,9 @@ table {
       font-weight: 900;
       font-size: 36px;
       line-height: 140%;
-      /* or 50px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #262728;
       &::after {
          content: "";
@@ -752,12 +747,7 @@ table {
       font-weight: bold;
       font-size: 22px;
       line-height: 140%;
-      /* identical to box height, or 31px */
-
       letter-spacing: 0.02em;
-
-      /* 1 */
-
       color: #294594;
    }
    &__item p {
@@ -767,12 +757,7 @@ table {
       font-weight: normal;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       letter-spacing: 0.02em;
-
-      /* Шрифт 1 */
-
       color: #262728;
       padding: 0px 80px 40px 60px;
       &::before {
@@ -823,14 +808,9 @@ table {
       font-weight: bold;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #262728;
       border: 2px solid #a8a9aa;
       box-sizing: border-box;
