@@ -936,10 +936,21 @@ table thead th {
   margin: 20px 0px 0px 0px;
 }
 
-.faq .ui-state-active,
+.faq .ui-state-active {
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  background: #f8f9fa;
+}
+
 .faq .ui-accordion-content-active {
   background: #f8f9fa;
-  border: none;
+  border-bottom: none;
+}
+
+.faq .ui-accordion-content {
+  border: 2px solid #dadbdc;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
 }
 
 .faq span {
