@@ -866,6 +866,7 @@ table {
 }
 .map {
    position: relative;
+   height: 350px;
    &__container {
       position: absolute;
       top: 0;
@@ -898,6 +899,85 @@ table {
          position: absolute;
          left: -40px;
          top: 9px;
+      }
+   }
+}
+.footer {
+   background: $color1;
+   color: $white;
+   padding: 35px 0px 50px 0px;
+   & .wrapper {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__info {
+      & p {
+         margin: 10px 0px 0px 0px;
+      }
+   }
+
+   &__title {
+      color: #ffffff;
+      opacity: 0.5;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 0.06em;
+   }
+
+   &__menu {
+      & li {
+         padding: 10px 0px 0px 0px;
+      }
+      & a {
+         color: $white;
+      }
+   }
+
+   &__contacts {
+      & p {
+         padding: 10px 0px 0px 0px;
+      }
+      & span {
+         font-weight: bold;
+      }
+   }
+
+   &__connection {
+   }
+
+   &__social {
+      margin: 15px 0px 0px 0px;
+      width: 120px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__pricebutton,
+   &__orderbutton {
+      height: 50px;
+      width: 220px;
+      position: relative;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 10px 0px 0px 0px;
+      padding: 0px 0px 0px 60px;
+      display: flex;
+      align-items: center;
+      //vertical-align: middle;
+      border: 2px solid #ffffff;
+      line-height: 1.2;
+      box-sizing: border-box;
+      border-radius: 5px;
+      transition: 0.3s;
+      & img {
+         position: absolute;
+         left: 15px;
+         top: 10px;
+      }
+      &:hover {
+         background: $color2;
+         //color: $color1;
       }
    }
 }

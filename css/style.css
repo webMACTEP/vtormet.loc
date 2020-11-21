@@ -1091,6 +1091,7 @@ table thead th {
 
 .map {
   position: relative;
+  height: 350px;
 }
 
 .map__container {
@@ -1130,4 +1131,92 @@ table thead th {
   position: absolute;
   left: -40px;
   top: 9px;
+}
+
+.footer {
+  background: #294594;
+  color: #fff;
+  padding: 35px 0px 50px 0px;
+}
+
+.footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__info p {
+  margin: 10px 0px 0px 0px;
+}
+
+.footer__title {
+  color: #ffffff;
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.footer__menu li {
+  padding: 10px 0px 0px 0px;
+}
+
+.footer__menu a {
+  color: #fff;
+}
+
+.footer__contacts p {
+  padding: 10px 0px 0px 0px;
+}
+
+.footer__contacts span {
+  font-weight: bold;
+}
+
+.footer__social {
+  margin: 15px 0px 0px 0px;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__pricebutton, .footer__orderbutton {
+  height: 50px;
+  width: 220px;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #ffffff;
+  line-height: 1.2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__pricebutton img, .footer__orderbutton img {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+.footer__pricebutton:hover, .footer__orderbutton:hover {
+  background: #f7992b;
 }
