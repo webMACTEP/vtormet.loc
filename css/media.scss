@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+   .container {
+      width: 95%;
+   }
+   .news .wrapper {
+      justify-content: space-around;
+      flex-wrap: wrap;
+      & img {
+         margin: 40px 0px 0px 0px;
+      }
+   }
+   .header__nav a {
+      margin: 0px 0 0 30px;
+   }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 413px) {
+}

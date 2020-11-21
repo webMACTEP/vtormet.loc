@@ -1,1 +1,17 @@
-/* No CSS */
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .news .wrapper {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .news .wrapper img {
+    margin: 40px 0px 0px 0px;
+  }
+  .header__nav a {
+    margin: 0px 0 0 30px;
+  }
+}
