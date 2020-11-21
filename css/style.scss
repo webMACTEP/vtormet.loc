@@ -95,9 +95,6 @@ table {
       }
    }
 
-   &__logo {
-   }
-
    &__item {
       @include font(14px, $bold, $font1);
       text-align: left;
@@ -941,9 +938,6 @@ table {
       & span {
          font-weight: bold;
       }
-   }
-
-   &__connection {
    }
 
    &__social {
