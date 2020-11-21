@@ -567,7 +567,6 @@ table {
       width: 70%;
       margin-left: -35%;
       height: 4px;
-      //border-top: 4px dashed #fff;
       background: url("../img/punktir.svg");
       background-repeat: repeat-x;
    }
@@ -862,6 +861,41 @@ table {
       &:hover {
          background: #fff;
          color: $color1;
+      }
+   }
+}
+.map {
+   position: relative;
+   &__container {
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+   & .container {
+      position: relative;
+   }
+   &__blok {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: $white;
+      border: 1px solid #dadbdc;
+      padding: 35px 60px 35px 30px;
+      font-weight: bold;
+      font-size: 14px;
+      & span {
+         font-weight: normal;
+      }
+   }
+
+   &__row {
+      position: relative;
+      margin: 8px 0px 0px 40px;
+      & img {
+         display: block;
+         position: absolute;
+         left: -40px;
+         top: 9px;
       }
    }
 }

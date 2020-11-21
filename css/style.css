@@ -1088,3 +1088,44 @@ table thead th {
   background: #fff;
   color: #294594;
 }
+
+.map {
+  position: relative;
+}
+
+.map__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.map .container {
+  position: relative;
+}
+
+.map__blok {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: #fff;
+  border: 1px solid #dadbdc;
+  padding: 35px 60px 35px 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.map__blok span {
+  font-weight: normal;
+}
+
+.map__row {
+  position: relative;
+  margin: 8px 0px 0px 40px;
+}
+
+.map__row img {
+  display: block;
+  position: absolute;
+  left: -40px;
+  top: 9px;
+}
