@@ -203,6 +203,10 @@ table {
       width: 370px;
       margin: 20px auto 0 auto;
       border-radius: 5px;
+      transition: 0.3s;
+      &:hover {
+         background: $color1;
+      }
    }
 }
 .wappgroup {
@@ -234,25 +238,23 @@ table {
       align-items: center;
       justify-content: center;
       margin-left: 40px;
-
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Просто белый */
-
       color: #ffffff;
-
       border: 2px solid #ffffff;
       box-sizing: border-box;
       border-radius: 5px;
       width: 320px;
       height: 50px;
+      transition: 0.3s;
+      &:hover {
+         background: $color2;
+      }
+
       & img {
          margin-right: 10px;
       }
@@ -272,14 +274,9 @@ table {
       font-weight: 900;
       font-size: 36px;
       line-height: 140%;
-      /* or 50px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #262728;
       &::after {
          content: "";
@@ -342,14 +339,9 @@ table {
       font-weight: bold;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Просто белый */
-
       color: #ffffff;
    }
 }
@@ -363,14 +355,9 @@ table {
       font-weight: 900;
       font-size: 36px;
       line-height: 140%;
-      /* or 50px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #fff;
       &::after {
          content: "";
@@ -401,9 +388,6 @@ table {
       line-height: 140%;
       text-align: center;
       letter-spacing: 0.02em;
-
-      /* Просто белый */
-
       color: #ffffff;
    }
    & .active {
@@ -429,15 +413,11 @@ table {
       display: flex;
       flex-direction: column;
       padding: 0px 15px 0px 15px;
-
       font-style: normal;
       font-weight: normal;
       font-size: 14px;
       line-height: 140%;
       letter-spacing: 0.02em;
-
-      /* Просто белый */
-
       color: #ffffff;
       & input {
          margin: 6px 0px 30px 0px;
@@ -461,13 +441,8 @@ table {
       font-weight: bold;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Просто белый */
-
       color: #ffffff;
       & img {
          padding: 0px 10px 0px 0px;
@@ -489,14 +464,9 @@ table {
       font-weight: 900;
       font-size: 36px;
       line-height: 140%;
-      /* or 50px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #262728;
       &::after {
          content: "";
@@ -517,13 +487,8 @@ table {
       font-weight: normal;
       font-size: 22px;
       line-height: 140%;
-      /* identical to box height, or 31px */
-
       text-align: center;
       letter-spacing: 0.02em;
-
-      /* Шрифт 1 */
-
       color: #262728;
    }
 
@@ -532,14 +497,9 @@ table {
       font-weight: bold;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #262728;
       border: 2px solid #a8a9aa;
       box-sizing: border-box;
@@ -547,6 +507,11 @@ table {
       padding: 14px 0;
       width: 370px;
       margin: 40px auto;
+      transition: 0.3s;
+      &:hover {
+         background: $color1;
+         color: $white;
+      }
    }
 }
 .price-dis {
@@ -560,13 +525,8 @@ table {
    font-weight: bold;
    font-size: 16px;
    line-height: 140%;
-   /* or 22px */
-
    text-align: center;
    letter-spacing: 0.02em;
-
-   /* Просто белый */
-
    color: #ffffff;
    &__title {
       position: relative;
@@ -574,14 +534,9 @@ table {
       font-weight: 900;
       font-size: 36px;
       line-height: 140%;
-      /* or 50px */
-
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-
-      /* Шрифт 1 */
-
       color: #fff;
       &::after {
          content: "";
@@ -634,8 +589,6 @@ table {
       font-weight: bold;
       font-size: 16px;
       line-height: 140%;
-      /* or 22px */
-
       letter-spacing: 0.06em;
       text-transform: uppercase;
       border: 2px solid #ffffff;
@@ -827,5 +780,10 @@ table {
       padding: 14px 0;
       width: 370px;
       margin: 40px auto;
+      transition: 0.3s;
+      &:hover {
+         background: $color1;
+         color: $white;
+      }
    }
 }

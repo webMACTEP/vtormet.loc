@@ -296,6 +296,12 @@ table thead th {
   width: 370px;
   margin: 20px auto 0 auto;
   border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.intro__button:hover {
+  background: #294594;
 }
 
 .wappgroup {
@@ -344,10 +350,8 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Просто белый */
   color: #ffffff;
   border: 2px solid #ffffff;
   -webkit-box-sizing: border-box;
@@ -355,6 +359,12 @@ table thead th {
   border-radius: 5px;
   width: 320px;
   height: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wappgroup__button:hover {
+  background: #f7992b;
 }
 
 .wappgroup__button img {
@@ -382,11 +392,9 @@ table thead th {
   font-weight: 900;
   font-size: 36px;
   line-height: 140%;
-  /* or 50px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #262728;
 }
 
@@ -463,11 +471,9 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Просто белый */
   color: #ffffff;
 }
 
@@ -482,11 +488,9 @@ table thead th {
   font-weight: 900;
   font-size: 36px;
   line-height: 140%;
-  /* or 50px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #fff;
 }
 
@@ -525,7 +529,6 @@ table thead th {
   line-height: 140%;
   text-align: center;
   letter-spacing: 0.02em;
-  /* Просто белый */
   color: #ffffff;
 }
 
@@ -568,7 +571,6 @@ table thead th {
   font-size: 14px;
   line-height: 140%;
   letter-spacing: 0.02em;
-  /* Просто белый */
   color: #ffffff;
 }
 
@@ -600,10 +602,8 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Просто белый */
   color: #ffffff;
 }
 
@@ -629,11 +629,9 @@ table thead th {
   font-weight: 900;
   font-size: 36px;
   line-height: 140%;
-  /* or 50px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #262728;
 }
 
@@ -655,10 +653,8 @@ table thead th {
   font-weight: normal;
   font-size: 22px;
   line-height: 140%;
-  /* identical to box height, or 31px */
   text-align: center;
   letter-spacing: 0.02em;
-  /* Шрифт 1 */
   color: #262728;
 }
 
@@ -667,11 +663,9 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #262728;
   border: 2px solid #a8a9aa;
   -webkit-box-sizing: border-box;
@@ -680,6 +674,13 @@ table thead th {
   padding: 14px 0;
   width: 370px;
   margin: 40px auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price__button:hover {
+  background: #294594;
+  color: #fff;
 }
 
 .price-dis {
@@ -694,10 +695,8 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   text-align: center;
   letter-spacing: 0.02em;
-  /* Просто белый */
   color: #ffffff;
 }
 
@@ -707,11 +706,9 @@ table thead th {
   font-weight: 900;
   font-size: 36px;
   line-height: 140%;
-  /* or 50px */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* Шрифт 1 */
   color: #fff;
 }
 
@@ -777,7 +774,6 @@ table thead th {
   font-weight: bold;
   font-size: 16px;
   line-height: 140%;
-  /* or 22px */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   border: 2px solid #ffffff;
@@ -992,4 +988,11 @@ table thead th {
   padding: 14px 0;
   width: 370px;
   margin: 40px auto;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.faq__button:hover {
+  background: #294594;
+  color: #fff;
 }
