@@ -1,3 +1,7 @@
+.header__logo-small {
+   display: none;
+}
+
 @media (max-width: 1200px) {
    .container {
       width: 95%;
@@ -12,8 +16,52 @@
    .header__nav a {
       margin: 0px 0 0 30px;
    }
+   .faq .ui-accordion-header {
+      padding: 20px 70px 20px 30px;
+   }
 }
 @media (max-width: 992px) {
+   .header__logo {
+      display: none;
+   }
+   .header__item {
+   }
+   .header__nav a {
+      font-size: 14px;
+      margin: 0px 0 0 20px;
+   }
+   .header__logo-small {
+      display: block;
+      margin: 5px 0px 0px 0px;
+   }
+   .header__title {
+      margin: 3px 0px 0px 0px;
+   }
+   .wappgroup__title {
+      font-size: 15px;
+      line-height: 22px;
+   }
+   .wappgroup__button {
+      font-size: 14px;
+   }
+   .order__title,
+   .uslugi__title,
+   .how__title,
+   .about__title,
+   .faq__title,
+   .news__title,
+   .price__title,
+   .intro__title {
+      font-size: 27px;
+   }
+   .about__column {
+      font-size: 13px;
+   }
+   .footer .wrapper {
+      //flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
 }
 @media (max-width: 768px) {
 }
