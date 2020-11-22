@@ -616,9 +616,49 @@ body.lock {
    &__inputs {
       display: flex;
       justify-content: space-between;
+      &.itemorder1 {
+         &.hide {
+            display: none;
+         }
+         &.actives {
+            display: flex;
+            justify-content: space-between;
+         }
+      }
+      &.itemorder2 {
+         display: none;
+         &.actives {
+            display: flex;
+            justify-content: center;
+         }
+         &.hide {
+            display: none;
+         }
+      }
+      &.itemorder3 {
+         display: none;
+         &.actives {
+            display: flex;
+            justify-content: center;
+         }
+         &.hide {
+            display: none;
+         }
+      }
+      &.itemorder4 {
+         display: none;
+         &.actives {
+            display: flex;
+            justify-content: center;
+         }
+         &.hide {
+            display: none;
+         }
+      }
    }
    &__column {
       width: 100%;
+      max-width: 320px;
       display: flex;
       flex-direction: column;
       padding: 0px 15px 0px 15px;
@@ -668,6 +708,14 @@ body.lock {
          border: none;
          & img {
             transform: rotate(180deg);
+         }
+         &.stap4 {
+            display: none;
+         }
+      }
+      &.previous {
+         &.stap1 {
+            visibility: hidden;
          }
       }
    }

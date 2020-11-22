@@ -224,22 +224,38 @@
       <div class="container">
          <div class="order__title">Простой заказ вывоза металла в 4 шага</div>
          <div class="wrapper">
-            <div class="order__steps active">Шаг # <br><span>подзаголовок</span></div>
-            <div class="order__steps">Шаг # <br><span>подзаголовок</span></div>
-            <div class="order__steps">Шаг # <br><span>подзаголовок</span></div>
-            <div class="order__steps">Шаг # <br><span>подзаголовок</span></div>
+            <div class="order__steps order__step1 active">Шаг 1 <br><span>Вид металла</span></div>
+            <div class="order__steps order__step2">Шаг 2 <br><span>Местоположение</span></div>
+            <div class="order__steps order__step3">Шаг 3 <br><span>Демонтажные работы</span></div>
+            <div class="order__steps order__step4">Шаг 4 <br><span>Информация о клиенте</span></div>
          </div>
          <div class="order__body">
-            <div class="order__inputs">
-               <div class="order__column">Заголовок <input type="text">
+            <div class="order__inputs itemorder1">
+               <div class="order__column">Выберете вид металла: <input type="text">
                </div>
-               <div class="order__column">Заголовок <input type="text">
+               <div class="order__column">Тип металла: <input type="text">
                </div>
-               <div class="order__column">Заголовок <input type="text">
+               <div class="order__column">Вес: <input type="text">
+               </div>
+            </div>
+            <div class="order__inputs itemorder2">
+               <div class="order__column">Город:<input type="text">
+               </div>
+               <div class="order__column">Нужен ли вывоз?<input type="text">
+               </div>
+            </div>
+            <div class="order__inputs itemorder3">
+               <div class="order__column">Нужен ли демонтаж?<input type="text">
+               </div>
+            </div>
+            <div class="order__inputs itemorder4">
+               <div class="order__column">Ваше имя:<input type="text">
+               </div>
+               <div class="order__column">Номер телефона:<input type="text">
                </div>
             </div>
             <div class="order__buttons">
-               <div class="order__button"><img src="img/arrow.svg" alt="">Назад</div>
+               <div class="order__button previous"><img src="img/arrow.svg" alt="">Назад</div>
                <div class="order__button next">Далее <img src="img/arrow.svg" alt=""></div>
             </div>
          </div>
