@@ -21,6 +21,12 @@
    }
 }
 @media (max-width: 992px) {
+   .order__body {
+      padding: 50px 25px 60px 25px;
+   }
+   .order__steps {
+      width: 170px;
+   }
    .header__logo {
       display: none;
    }
@@ -64,6 +70,10 @@
    }
 }
 @media (max-width: 768px) {
+   .about .wrapper {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+   }
 }
 @media (max-width: 576px) {
 }
