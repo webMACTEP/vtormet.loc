@@ -226,8 +226,9 @@
     top: 100px;
   }
   .intro__title::after {
-    width: 400px;
-    margin-left: -200px;
+    width: 100%;
+    margin: 0;
+    left: 0;
     top: 95px;
   }
   .uslugi__title::after,
