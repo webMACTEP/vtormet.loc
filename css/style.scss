@@ -85,7 +85,31 @@ body.lock {
       &.active {
          top: 0;
       }
+      & .wrapper {
+         display: flex;
+         flex-direction: column;
+         padding: 20px 0px 40px 60px;
+         & div {
+            margin: 20px 0px 0px 0px;
+         }
+      }
    }
+   &__menu-button {
+      color: $white;
+      background: $color2;
+      width: 240px;
+      height: 30px;
+      margin: 0px auto 40px auto;
+      padding: 3px 0px 0px 0px;
+      text-align: center;
+      border-radius: 3px;
+      font-weight: bold;
+      & img {
+         height: 16px;
+         margin: 3px 3px 0px 0px;
+      }
+   }
+
    &__submenu li a {
       color: #262728;
       font-weight: normal;
