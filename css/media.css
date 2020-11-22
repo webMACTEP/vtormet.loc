@@ -225,6 +225,23 @@
   .faq__title::after {
     top: 100px;
   }
+  .intro__title::after {
+    width: 400px;
+    margin-left: -200px;
+    top: 95px;
+  }
+  .uslugi__title::after,
+  .price-dis__title::after,
+  .how__title::after,
+  .about__title::after,
+  .news__title::after {
+    top: 45px;
+  }
+  .faq__title::after,
+  .price__title::after,
+  .order__title::after {
+    top: 85px;
+  }
   .order__title,
   .price-dis__title,
   .uslugi__title,
