@@ -74,6 +74,9 @@
 }
 
 @media (max-width: 768px) {
+  .intro {
+    padding: 80px 0px 40px 0px;
+  }
   .header__row1 {
     position: fixed;
     width: 100%;
@@ -157,6 +160,16 @@
 }
 
 @media (max-width: 576px) {
+  .wappgroup__blok {
+    border: none;
+    border-radius: 0;
+  }
+  .wappgroup {
+    padding: 0;
+  }
+  .wappgroup .container {
+    width: 100%;
+  }
   .news .wrapper img {
     margin: 40px 0px 20px 0px;
   }
