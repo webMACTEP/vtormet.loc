@@ -30,8 +30,6 @@
    .header__logo {
       display: none;
    }
-   .header__item {
-   }
    .header__nav a {
       font-size: 14px;
       margin: 0px 0 0 20px;
@@ -70,6 +68,65 @@
    }
 }
 @media (max-width: 768px) {
+   .wappgroup__button {
+      margin: 40px 0px 0px 0px;
+   }
+   .wappgroup__title {
+      text-align: center;
+   }
+   .wappgroup__blok {
+      flex-direction: column;
+   }
+   .uslugi__border {
+      width: 210px;
+   }
+   .uslugi__item {
+      width: 230px;
+   }
+   .how__column {
+      width: 200px;
+      margin: 0px 0px 40px 0px;
+   }
+   .how .wrapper {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+   }
+   .how__line {
+      display: none;
+   }
+   .news__column {
+      width: 230px;
+      & img {
+         width: 230px;
+      }
+   }
+   .intro__title::after,
+   .order__title::after,
+   .price__title::after {
+      top: 100px;
+   }
+   .order__title,
+   .uslugi__title,
+   .how__title,
+   .about__title,
+   .faq__title,
+   .news__title,
+   .price__title,
+   .intro__title {
+      font-size: 30px;
+   }
+   .header__title,
+   .header__social,
+   .header__row2,
+   .header__nav {
+      display: none;
+   }
+   .order__steps {
+      width: 130px;
+   }
+   .order__inputs {
+      flex-direction: column;
+   }
    .about .wrapper {
       flex-wrap: wrap;
       justify-content: space-evenly;

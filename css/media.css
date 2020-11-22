@@ -74,6 +74,74 @@
 }
 
 @media (max-width: 768px) {
+  .wappgroup__button {
+    margin: 40px 0px 0px 0px;
+  }
+  .wappgroup__title {
+    text-align: center;
+  }
+  .wappgroup__blok {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .uslugi__border {
+    width: 210px;
+  }
+  .uslugi__item {
+    width: 230px;
+  }
+  .how__column {
+    width: 200px;
+    margin: 0px 0px 40px 0px;
+  }
+  .how .wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .how__line {
+    display: none;
+  }
+  .news__column {
+    width: 230px;
+  }
+  .news__column img {
+    width: 230px;
+  }
+  .intro__title::after,
+  .order__title::after,
+  .price__title::after {
+    top: 100px;
+  }
+  .order__title,
+  .uslugi__title,
+  .how__title,
+  .about__title,
+  .faq__title,
+  .news__title,
+  .price__title,
+  .intro__title {
+    font-size: 30px;
+  }
+  .header__title,
+  .header__social,
+  .header__row2,
+  .header__nav {
+    display: none;
+  }
+  .order__steps {
+    width: 130px;
+  }
+  .order__inputs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .about .wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;

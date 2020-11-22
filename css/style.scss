@@ -523,6 +523,28 @@ table {
 }
 .price-dis {
    padding: 0px 0px 70px 0px;
+   &__title {
+      position: relative;
+      margin: 65px 0px 40px 0px;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #262728;
+      &::after {
+         content: "";
+         position: absolute;
+         top: 65px;
+         left: 50%;
+         text-align: center;
+         width: 200px;
+         margin-left: -100px;
+         height: 2px;
+         background: #f7992b;
+      }
+   }
 }
 .how {
    position: relative;
