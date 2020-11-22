@@ -6,6 +6,10 @@ $(document).ready(function () {
       $('body').toggleClass('lock');
 
    });
+   $('.header__burger1').click(function (event) {
+      $('.header__burger1, .header__menu1').toggleClass('active');
+
+   });
 
 
 });
