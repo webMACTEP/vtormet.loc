@@ -133,6 +133,68 @@
    }
 }
 @media (max-width: 576px) {
+   .footer__title {
+      margin: 40px 0px 0px 0px;
+   }
+   .footer__connection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+   }
+   .footer__pricebutton,
+   .footer__orderbutton {
+      align-self: center;
+   }
+   .order__button {
+      width: 135px;
+   }
+   table th {
+      font-size: 12px;
+   }
+   .about__column,
+   .how__column {
+      width: 185px;
+   }
+   .news__column {
+      width: 370px;
+   }
+   .footer .wrapper {
+      flex-direction: column;
+      padding: 0px 10px 0px 10px;
+   }
+   .faq__title::after {
+      top: 100px;
+   }
+   .order__title,
+   .price-dis__title,
+   .uslugi__title,
+   .how__title,
+   .about__title,
+   .faq__title,
+   .news__title,
+   .price__title,
+   .intro__title {
+      font-size: 27px;
+   }
+
+   .uslugi__item-title {
+      font-size: 12px;
+   }
+   .uslugi__border {
+      width: 150px;
+      height: 150px;
+   }
+   .uslugi__item {
+      width: 170px;
+      height: 170px;
+   }
+   .order .active {
+      display: block;
+   }
+   .order__steps {
+      display: none;
+   }
 }
 @media (max-width: 413px) {
 }
