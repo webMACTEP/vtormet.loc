@@ -29,6 +29,8 @@
   }
   .order__steps {
     width: 170px;
+    font-size: 14px;
+    height: 80px;
   }
   .header__logo {
     display: none;
@@ -74,6 +76,11 @@
 }
 
 @media (max-width: 768px) {
+  .order__inputs {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .header__burger {
     display: block;
   }
@@ -270,5 +277,15 @@
   }
   .order__steps {
     display: none;
+    font-size: 14px;
+    height: 80px;
+  }
+  .order__body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .order__column {
+    width: 338px;
   }
 }
