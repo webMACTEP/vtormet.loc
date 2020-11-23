@@ -27,7 +27,9 @@ $(document).ready(function () {
       n++;
 
    });
-
+   if (n === 4) {
+      $('.send').addClass('stap' + n);
+   }
 
    $('.previous').click(function (event) {
 
@@ -40,6 +42,21 @@ $(document).ready(function () {
       $('.order__step' + n).addClass('active');
       $('.itemorder' + n).addClass('actives');
       $('.itemorder' + n).removeClass('hide');
+   });
+
+
+   $('.wappgroup__button, .footer__pricebutton').click(function (event) {
+
+      $('.modals, .modals__01').addClass('open');
+      $('.modals__body').addClass('h400');
+      $('body').addClass('lock');
+   });
+
+   $('.modals__close').click(function (event) {
+
+      $('.modals, .modals__01').removeClass('open');
+      $('.modals__body').removeClass('h400');
+      $('body').removeClass('lock');
    });
 
 
